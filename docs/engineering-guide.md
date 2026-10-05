@@ -40,4 +40,12 @@ The following are suggested review checks. A checklist entry is not a claimed pa
 - [LinkedIn projects](https://www.linkedin.com/in/mohammed-mahyoub/details/projects/): supplementary descriptions and project media.
 - New SVG figures and explanatory text were authored for this documentation update; they are not original photographs or new measured results.
 - Reused JPG media were exported from the corresponding LinkedIn project media viewer. Source titles are preserved in the captions; no expiring image URLs are required.
-- Original implementation photos and raw results were not available in the inspected public repository; the new diagrams provide explanation without substituting for that evidence.
+- A source summary sheet is included below; physical-installation photographs and raw commissioning records were not available in the inspected public repository.
+
+## Additional source media
+
+![Solar Energy Systems — Design, Sizing & Deployment](overview/solar-system.jpg)
+
+*Solar Energy Systems — Design, Sizing & Deployment: existing LinkedIn experience media, exported from the media viewer. This is the available preview resolution; it is a source summary sheet/screenshot, not a new measurement.*
+
+Source: [LinkedIn experience media](https://www.linkedin.com/in/mohammed-mahyoub/details/experience/).
