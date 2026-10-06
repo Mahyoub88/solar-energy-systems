@@ -1,60 +1,42 @@
 # Solar Energy Systems — Design, Sizing & Deployment
 
-## Implementation at a glance
+Implemented photovoltaic power-system engineering for remote telecommunications supply and backup, covering load assessment, system sizing, component selection, integration, wiring and protection.
 
-Implemented photovoltaic power-system engineering for remote telecommunications supply and backup, from load assessment to sizing, component selection, wiring and protection.
+## Installation overview
 
-| Responsibility | Documented implementation |
+![Original rooftop PV and battery installation photographs](docs/overview/installation-gallery.svg)
+
+The source photographs show the rooftop photovoltaic array and the battery-storage and power-management installation. These are enlarged crops of the original summary sheet, preserving the available source detail.
+
+## How the system works
+
+![Solar power generation, storage and AC supply](docs/overview/architecture.svg)
+
+The PV array generates DC electricity. The charge controller regulates battery charging; the battery bank stores energy, and the inverter converts DC power to AC for connected loads. This figure explains the AC supply path. Telecommunications equipment may use a dedicated DC supply path according to the installation design.
+
+## Engineering scope
+
+| Design area | Engineering purpose |
 |---|---|
-| Load assessment | Separate peak load from daily energy demand and record the operating schedule. |
-| Sizing | Relate array, usable storage and inverter choices to solar resource, losses and autonomy. |
-| Integration | Coordinate the charge controller, battery, inverter, wiring and protective devices. |
-| Deployment | Use commissioning readings and operating context when evaluating the installed system. |
+| Load assessment | Establish peak demand, operating hours and daily energy consumption. |
+| PV array sizing | Relate generation capacity to energy demand, solar resource and system losses. |
+| Battery sizing | Match usable storage to required autonomy and allowable depth of discharge. |
+| Power conversion | Select an inverter for continuous demand and starting loads; coordinate controller ratings with array and battery characteristics. |
+| Integration and protection | Coordinate voltage compatibility, cable selection, isolation and protective devices. |
+| Deployment | Bring generation, storage and load supply together and assess operation using commissioning records. |
 
-### Source implementation gallery
+## Design and deployment workflow
 
-![Original project summary sheet — solar-system design and deployment](docs/overview/solar-system.jpg)
+![Engineering workflow from demand assessment to commissioning](docs/overview/workflow.svg)
 
-*Original project summary sheet — solar-system design and deployment.*
+Demand assessment establishes the design basis. Array and storage sizing guide equipment selection, followed by installation and commissioning. The workflow explains engineering dependencies; it does not report individual test results.
 
-### Architecture and implementation workflow
+## Project documentation
 
-![Explanatory functional architecture](docs/overview/architecture.svg)
+- [Engineering guide](docs/engineering-guide.md)
+- [Original project summary sheet](docs/overview/solar-system.jpg)
+- [Portfolio case study](https://mahyoub88.github.io/projects/proj-solar-study/)
 
-![Explanatory engineering workflow](docs/overview/workflow.svg)
+The diagrams are explanatory documentation. Equipment ratings, site assumptions and measured performance are included only when supported by project records.
 
-*Documentation diagrams based on the project scope; original source images and results are captioned separately.*
-
-[Full engineering guide](docs/engineering-guide.md) · [Illustrated case study](https://mahyoub88.github.io/projects/proj-solar-study/)
-
----
-
-
-
-**Author:** Mohammed Mahyoub.
-
-Designed and sized photovoltaic power systems, covering load assessment, array and battery sizing, inverter and charge-controller selection, and system protection.
-
-## Scope
-
-Load analysis, component sizing and selection, wiring and protection, and performance estimation.
-
-## Use
-
-Solar-powered supply and backup for remote telecommunications and infrastructure sites.
-
-## Technologies
-
-Photovoltaics, System Sizing, Load Analysis, Power Electronics, Off-Grid Power
-
-## Links
-
-- [Portfolio project](https://mahyoub88.github.io/projects/proj-solar-study/)
-
-## Illustrated project pages
-
-Project-specific diagrams, source media and implementation context:
-
-- [Solar Energy Systems — Design, Sizing & Deployment](https://mahyoub88.github.io/projects/proj-solar-study/)
-
-[Browse all engineering case studies](https://mahyoub88.github.io/projects/)
+**Author:** Mohammed Mahyoub

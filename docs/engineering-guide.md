@@ -1,51 +1,61 @@
-# Solar Energy Systems — Design, Sizing & Deployment — Engineering Guide
+# Solar Energy Systems — Engineering Guide
 
-Designed and sized photovoltaic power systems, covering load assessment, array and battery sizing, inverter and charge-controller selection, and system protection.
+The project integrates photovoltaic generation, battery storage and power conversion for remote telecommunications supply and backup.
 
-## Visual overview
+## Installation and equipment
 
-![Functional overview](overview/architecture.svg)
+![Original installation photographs](overview/installation-gallery.svg)
 
-*New explanatory diagram; grouped responsibilities, not an as-built schematic or test result.*
+**Rooftop PV installation:** the mounted array converts solar energy into DC electrical power.
 
-![Engineering workflow](overview/workflow.svg)
+**Battery storage and power management:** the battery bank and associated equipment coordinate storage, charging and load supply.
 
-*New explanatory workflow; a documentation aid, not evidence that every proposed check was performed.*
+The photographs are exact crops from the source summary sheet. Resolution limits equipment identification and reading device labels.
 
-## Start with energy demand
+## System architecture
 
-Load assessment separates instantaneous power from energy consumed over time. Telecommunications equipment and infrastructure loads need an explicit operating schedule before array, storage and inverter choices can be explained.
+![Functional system architecture](overview/architecture.svg)
 
-## Sizing dependencies
+| Stage | Function | Design consideration |
+|---|---|---|
+| PV array | Generate DC power | Energy demand, solar resource, losses and controller limits |
+| Charge controller | Regulate battery charging | Battery voltage, charging requirements and array voltage/current |
+| Battery bank | Store energy | Autonomy, usable capacity and discharge limits |
+| Inverter | Supply AC loads | Continuous rating, starting demand and DC input compatibility |
+| Loads | Consume delivered energy | Operating schedule, daily energy and peak power |
 
-Array sizing depends on solar resource and losses; battery sizing depends on usable energy and the intended autonomy; inverter selection depends on load characteristics. The diagram shows these dependencies without inventing site irradiance, equipment ratings or measured yield.
+The diagram explains the AC energy path. Dedicated DC loads, isolators, fuses, earthing and cable routes require an installation-specific drawing.
 
-## Deployment documentation
+## Load assessment
 
-The published scope covers wiring, protection, performance estimation and remote telecommunications supply/backup. The suggested evidence checklist calls for load schedules, sizing assumptions, component data and commissioning records. It does not claim that those source documents are already publicly available.
+Record each load's power, quantity and operating hours. Daily energy is the sum of power multiplied by time across all loads. Assess peak power and starting demand separately, because these determine power-conversion requirements. Distinguish continuous telecommunications demand from intermittent loads and identify AC and DC supply requirements.
 
-## Evidence to review or collect
+## PV array sizing
 
-The following are suggested review checks. A checklist entry is not a claimed pass result.
+Relate daily energy demand to site solar resource and expected system losses. Consider seasonal availability for continuous supply. Array configuration must remain within charge-controller voltage and current limits.
 
-- Load schedule and daily energy.
-- Solar resource/loss and autonomy assumptions.
-- Component compatibility and cable/protection design.
-- Commissioning readings and performance context.
+## Battery sizing
 
-## Sources and provenance
+Relate the required reserve to autonomy, usable discharge range and conversion losses. Nameplate capacity differs from usable energy delivered to loads. Battery chemistry and manufacturer charging requirements guide compatibility and charge settings.
 
-- [Published portfolio description](https://mahyoub88.github.io/projects/proj-solar-study/).
-- [Project README](../README.md) and existing repository files.
-- [LinkedIn projects](https://www.linkedin.com/in/mohammed-mahyoub/details/projects/): supplementary descriptions and project media.
-- New SVG figures and explanatory text were authored for this documentation update; they are not original photographs or new measured results.
-- Reused JPG media were exported from the corresponding LinkedIn project media viewer. Source titles are preserved in the captions; no expiring image URLs are required.
-- A source summary sheet is included below; physical-installation photographs and raw commissioning records were not available in the inspected public repository.
+## Power conversion and protection
 
-## Additional source media
+Select the inverter for continuous load, starting demand and battery voltage. Coordinate the charge controller with array electrical limits and battery requirements. Confirm ratings against equipment data sheets. Wiring, isolation, protective devices and earthing belong in the detailed installation design.
 
-![Solar Energy Systems — Design, Sizing & Deployment](overview/solar-system.jpg)
+## Installation and commissioning
 
-*Solar Energy Systems — Design, Sizing & Deployment: existing LinkedIn experience media, exported from the media viewer. This is the available preview resolution; it is a source summary sheet/screenshot, not a new measurement.*
+![Design and deployment workflow](overview/workflow.svg)
 
-Source: [LinkedIn experience media](https://www.linkedin.com/in/mohammed-mahyoub/details/experience/).
+Array mounting, battery installation, power-equipment integration and electrical protection bring the design into operation. Commissioning records connect the installed configuration to its design assumptions and operating conditions.
+
+Useful records include load schedules, equipment ratings, array and battery configurations, protection schedules and commissioning readings. These are documentation requirements, not claimed test results.
+
+## Source documentation
+
+![Original project summary sheet](overview/solar-system.jpg)
+
+- [Original summary sheet](overview/solar-system.jpg): supplied project media containing installation photographs, components and a system overview.
+- [Published portfolio case study](https://mahyoub88.github.io/projects/proj-solar-study/).
+- [Repository overview](../README.md).
+
+The gallery preserves source pixels. The architecture and workflow were redrawn for readability. No equipment capacities, measured yields or test outcomes were inferred from the low-resolution source.
