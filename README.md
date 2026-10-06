@@ -1,12 +1,35 @@
 # Solar Energy Systems — Design, Sizing & Deployment
 
-## Illustrated engineering guide
+## Implementation at a glance
 
-[Read the full engineering guide](docs/engineering-guide.md) for architecture, workflow, design rationale, evidence notes and the source gallery.
+Implemented photovoltaic power-system engineering for remote telecommunications supply and backup, from load assessment to sizing, component selection, wiring and protection.
 
-![Engineering overview](docs/overview/architecture.svg)
+| Responsibility | Documented implementation |
+|---|---|
+| Load assessment | Separate peak load from daily energy demand and record the operating schedule. |
+| Sizing | Relate array, usable storage and inverter choices to solar resource, losses and autonomy. |
+| Integration | Coordinate the charge controller, battery, inverter, wiring and protective devices. |
+| Deployment | Use commissioning readings and operating context when evaluating the installed system. |
 
-*Explanatory diagram added for this write-up.*
+### Source implementation gallery
+
+![Original project summary sheet — solar-system design and deployment](docs/overview/solar-system.jpg)
+
+*Original project summary sheet — solar-system design and deployment.*
+
+### Architecture and implementation workflow
+
+![Explanatory functional architecture](docs/overview/architecture.svg)
+
+![Explanatory engineering workflow](docs/overview/workflow.svg)
+
+*Documentation diagrams based on the project scope; original source images and results are captioned separately.*
+
+[Full engineering guide](docs/engineering-guide.md) · [Illustrated case study](https://mahyoub88.github.io/projects/proj-solar-study/)
+
+---
+
+
 
 **Author:** Mohammed Mahyoub.
 
