@@ -40,3 +40,11 @@ Demand assessment establishes the design basis. Array and storage sizing guide e
 The diagrams are explanatory documentation. Equipment ratings, site assumptions and measured performance are included only when supported by project records.
 
 **Author:** Mohammed Mahyoub
+
+## Additional technical explanation
+
+[Read the illustrated system-boundary guide](docs/reference-guide/README.md) for component responsibilities, integration checks and credited reference context.
+
+![System-boundary explanation](docs/reference-guide/system-boundaries.png)
+
+*New explanatory diagram; source attribution and interpretation are provided in the companion guide.*
