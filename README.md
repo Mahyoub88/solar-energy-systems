@@ -26,4 +26,12 @@ Photovoltaics, System Sizing, Load Analysis, Power Electronics, Off-Grid Power
 
 ## Links
 
-- [Portfolio project](https://mahyoub88.github.io/#proj-solar-study)
+- [Portfolio project](https://mahyoub88.github.io/projects/proj-solar-study/)
+
+## Illustrated project pages
+
+Project-specific diagrams, source media and implementation context:
+
+- [Solar Energy Systems — Design, Sizing & Deployment](https://mahyoub88.github.io/projects/proj-solar-study/)
+
+[Browse all engineering case studies](https://mahyoub88.github.io/projects/)
