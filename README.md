@@ -4,13 +4,13 @@ Implemented photovoltaic power-system engineering for remote telecommunications 
 
 ## Installation overview
 
-![Original rooftop PV and battery installation photographs](docs/overview/installation-gallery.svg)
+![Original rooftop PV and battery installation photographs](docs/overview/installation-gallery.png)
 
-The source photographs show the rooftop photovoltaic array and the battery-storage and power-management installation. These are enlarged crops of the original summary sheet, preserving the available source detail.
+The source photographs show the rooftop photovoltaic array and the battery-storage and power-management installation. These are direct crops from a higher-resolution overview recovered from the local project archive.
 
 ## How the system works
 
-![Solar power generation, storage and AC supply](docs/overview/architecture.svg)
+![Solar generation, storage and AC/DC supply](docs/overview/detailed-architecture.png)
 
 The PV array generates DC electricity. The charge controller regulates battery charging; the battery bank stores energy, and the inverter converts DC power to AC for connected loads. This figure explains the AC supply path. Telecommunications equipment may use a dedicated DC supply path according to the installation design.
 
@@ -33,7 +33,9 @@ Demand assessment establishes the design basis. Array and storage sizing guide e
 
 ## Project documentation
 
+- [Detailed project explanation: images, architecture, sizing and deployment](docs/detailed-project-explanation.md)
 - [Engineering guide](docs/engineering-guide.md)
+- [Higher-resolution source overview](docs/overview/solar-system-high-resolution.png)
 - [Original project summary sheet](docs/overview/solar-system.jpg)
 - [Portfolio case study](https://mahyoub88.github.io/projects/proj-solar-study/)
 

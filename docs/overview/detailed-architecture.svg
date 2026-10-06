@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760" role="img">
+<title>Solar generation, storage and load supply</title><desc>PV array feeds a DC combiner and charge controller. A DC bus connects battery storage, an inverter for AC loads and a regulated path for DC loads. Battery connection is bidirectional. Protection and monitoring cover all stages.</desc>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto-start-reverse"><path d="M0 0L0 6L9 3Z" fill="#0e9388"/></marker></defs>
+<rect width="1600" height="760" fill="#f7fafc"/>
+<g font-family="Arial,sans-serif" fill="#132c46">
+<text x="60" y="75" font-size="38" font-weight="700">SOLAR SYSTEM ARCHITECTURE</text><text x="60" y="120" font-size="22" fill="#53677c">Generation, energy storage and AC / DC supply</text>
+<g fill="white" stroke="#c9d8e5" stroke-width="2"><rect x="60" y="245" width="205" height="130" rx="14"/><rect x="315" y="245" width="205" height="130" rx="14"/><rect x="570" y="245" width="240" height="130" rx="14"/><rect x="910" y="445" width="230" height="130" rx="14"/><rect x="1060" y="180" width="200" height="115" rx="14"/><rect x="1310" y="180" width="230" height="115" rx="14"/><rect x="1060" y="325" width="200" height="115" rx="14"/><rect x="1310" y="325" width="230" height="115" rx="14"/></g>
+<g text-anchor="middle" font-size="24" font-weight="700"><text x="162" y="296">PV Array</text><text x="417" y="296">DC Combiner</text><text x="690" y="296">Charge Controller</text><text x="1025" y="497">Battery Bank</text><text x="1160" y="229">Inverter</text><text x="1425" y="229">AC Loads</text><text x="1160" y="374">DC Regulation</text><text x="1425" y="374">DC Loads</text></g>
+<g text-anchor="middle" font-size="18" fill="#53677c"><text x="162" y="338">Generate electricity</text><text x="417" y="338">Combine PV strings</text><text x="690" y="338">Manage charging</text><text x="1025" y="540">Charge / discharge</text><text x="1160" y="267">DC to AC</text><text x="1425" y="267">AC equipment</text><text x="1160" y="412">Match load supply</text><text x="1425" y="412">Telecom equipment</text></g>
+<g fill="none" stroke="#0e9388" stroke-width="4" marker-end="url(#a)"><path d="M270 310H305"/><path d="M525 310H560"/><path d="M815 310H945"/><path d="M950 310V237H1050"/><path d="M950 310V382H1050"/><path d="M1265 237H1300"/><path d="M1265 382H1300"/><path d="M1025 319V435" marker-start="url(#a)"/></g>
+<path d="M950 310H1025" stroke="#0e9388" stroke-width="4"/>
+<text x="920" y="180" font-size="22" font-weight="700">DC BUS</text>
+<rect x="60" y="620" width="1480" height="55" rx="12" fill="#e5f4f2"/><text x="800" y="655" text-anchor="middle" font-size="23" font-weight="700">Monitoring, isolation and electrical protection across the system</text>
+<text x="60" y="720" font-size="19" fill="#53677c">Functional explanation. Final topology, protection and cable routes depend on the installed equipment.</text>
+</g></svg>

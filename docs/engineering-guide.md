@@ -4,13 +4,13 @@ The project integrates photovoltaic generation, battery storage and power conver
 
 ## Installation and equipment
 
-![Original installation photographs](overview/installation-gallery.svg)
+![Original installation photographs](overview/installation-gallery.png)
 
 **Rooftop PV installation:** the mounted array converts solar energy into DC electrical power.
 
 **Battery storage and power management:** the battery bank and associated equipment coordinate storage, charging and load supply.
 
-The photographs are exact crops from the source summary sheet. Resolution limits equipment identification and reading device labels.
+The photographs are exact crops from the source summary sheet. The recovered higher-resolution overview improves visibility; exact equipment ratings still require data sheets.
 
 ## System architecture
 
@@ -59,3 +59,7 @@ Useful records include load schedules, equipment ratings, array and battery conf
 - [Repository overview](../README.md).
 
 The gallery preserves source pixels. The architecture and workflow were redrawn for readability. No equipment capacities, measured yields or test outcomes were inferred from the low-resolution source.
+
+## Detailed explanation
+
+[Read the complete project explanation](detailed-project-explanation.md), including photograph analysis, load assessment, preliminary sizing relationships, AC/DC paths, commissioning records and source attribution.
