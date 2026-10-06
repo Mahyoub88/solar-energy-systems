@@ -35,7 +35,7 @@ The following are suggested review checks. A checklist entry is not a claimed pa
 
 ## Sources and provenance
 
-- [Published portfolio description](https://mahyoub88.github.io/#proj-solar-study).
+- [Published portfolio description](https://mahyoub88.github.io/projects/proj-solar-study/).
 - [Project README](../README.md) and existing repository files.
 - [LinkedIn projects](https://www.linkedin.com/in/mohammed-mahyoub/details/projects/): supplementary descriptions and project media.
 - New SVG figures and explanatory text were authored for this documentation update; they are not original photographs or new measured results.
