@@ -1,5 +1,7 @@
 # Solar Energy Systems — Design, Sizing & Deployment
 
+[Read case study](https://mahyoub88.github.io/projects/proj-solar-study/) · [Project index](docs/PROJECTS.md) · [Engineering guide](docs/engineering-guide.md)
+
 Implemented photovoltaic power-system engineering for remote telecommunications supply and backup, covering load assessment, system sizing, component selection, integration, wiring and protection.
 
 ## Installation overview
