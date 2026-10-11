@@ -52,3 +52,5 @@ The diagrams are explanatory documentation. Equipment ratings, site assumptions 
 ![System-boundary explanation](docs/reference-guide/system-boundaries.png)
 
 *New explanatory diagram; source attribution and interpretation are provided in the companion guide.*
+
+- [Solar Energy Systems — Design, Sizing & Deployment — technical walkthrough](docs/technical-walkthroughs/proj-solar-study.md)
